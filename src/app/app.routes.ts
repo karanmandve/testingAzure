@@ -4,6 +4,10 @@ import { TestingComponent } from './Component/testing/testing.component';
 
 export const routes: Routes = [
     {
+        path: '',
+        component:EmployeeComponent
+    },
+    {
         path: 'add-emp',
         component: EmployeeComponent
     },
