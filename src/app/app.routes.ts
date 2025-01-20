@@ -10,6 +10,9 @@ export const routes: Routes = [
     {
         path: 'testing',
         component: TestingComponent
+    },
+    {   path: "**",
+        component: TestingComponent
     }
     
 ];
